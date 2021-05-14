@@ -1,0 +1,108 @@
+html {
+box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+....................
+цвета указывать в шестнадцатиричной системе
+....................
+MARGIN, PADDING отступы правильно ставить нужно!
+margin-top/margin-left не используем
+....................
+outline: transparent; !!! и через focus задавать
+....................
+wrapper внешний, inner внутренний
+....................
+ДИНОМИЧЕСКИЙ КОНТЕНТ div > p без класса
+....................
+H1 ОДИН
+....................
+font-family: "Roboto Condensed", "Arial", sans-serif; указывать альтерн. веб-без. шрифт
+....................
+:nth-child() А НЕ +.
+....................
+line-height / font-size
+....................
+.menu__item:not(:last-child) {
+    margin-right: 45px;
+}
+....................
+ <a class="header__link" href="#"></a> пустые тэги можно, но если для bg!
+....................
+<a class="header__link" href="#" style="background-image: url(images/header-icon.svg)"></a>
+....................
+a {
+    color: inherit;
+}
+....................
+
+body {
+    background-color: #fff;
+}
+....................
+line-height не может меньше 1 ! если дизнер тк не задумал
+....................
+больше использовать ul
+....................
+cite - обычно сочетается с цитатамии указывает название произведения, (автора) из которого взята цитата.
+....................
+margin-right для элементов, у родителя убрать этот margin-right
+....................
+.slick-dots {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+....................
+Доступность
+.visually-hidden
+aria-label = ""
+....................
+label для input 
+....................
+em там где нужно!
+....................
+плавный скролл!
+....................
+макс 4 брейкПоинта
+....................
+culp
+установили глобально...
+npm install --global gulp-cli
+
+
+npm init - новый проект
+npm i --save-dev gulp - установка галп на наш проект
+gulp --version
+в проекте папки dist и app
+в проекте файл gulpfile.js
+npm i --save-dev gulp-sass устанавливаем sass
+в галпфайле const scss = require('gulp-sass');
+npm i --save-dev gulp-concat
+
+crl C 
+
+
+
+
+git init
+
+git config --global user.name "Your Name"
+
+git status
+git add . зальёт все новые файлы в репу
+
+git commit -m 'my 1 commit' 
+git commit -am 'my 1 commit' если не создовал новые файлы
+git push origin main
+
+
+
+
+
